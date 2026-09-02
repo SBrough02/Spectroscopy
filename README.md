@@ -1,12 +1,12 @@
-# Physics Simulation: High Resolution Hot Jupiter Atmospheric Retrieval
+# Atmospheric Retrieval of the Hot Jupiter HD 189733b
 
-## Goal
-
-In this project I will be analysing the detection of molecules of CO and H20 in a hot Jupiter's atmosphere.
+In this project I will be investigating exoplanet transmission spectroscopy and atmospheric retrieval using python and the software platon. 
 
 ## Plan
 
-As an introduction to the topic the plan will be to create a model spectra of light on a plot of intensity against wavelength and inject model absorption lines for different molecules. Then create a spectra to simulate light that has passed through a hot Jupiter by adding noise and doppler shifting the light. Then make comparisons between these two plots to determine at the velocity at which the signal is strongest. This exercise will demonstrate the effect that uncertainties have in astrophysics and the need for high precision instruments to produce accurate results. Then I will use data collected from the exoplanet HD189733B to try and reproduce the results from the paper M. Oshagh (2020). This will involve using the modelling package Platon from Zhang et al. (2019) to compare to the transmission spectrum from the exoplanets atmosphere and determine the expected and detected molecules within the atmosphere.
+This project explores how molecular absorption features can be observed in the atmospheres of exoplanets using transmission spectroscopy. 
+
+First a model spectrum of light was created by plotting intensity against wavelength and injecting model absorption lines for different molecules. A second spectrum was then created to simulate light that had passed through a hot Jupiter by adding noise and doppler shifting the light. This exercise demonstrated the effect that uncertainties have in astrophysics and the need for high precision instruments to produce accurate results. Data collected from the exoplanet HD189733B was used to try to reproduce the results from the paper M. Oshagh (2020). This involved using the modelling package Platon from Zhang et al. (2019) to compare atmospheric models with the exoplanet's transmission spectrum and determine the expected and detected molecules within the atmosphere.
 
 ## Background Physics
 
