@@ -50,7 +50,7 @@ Then, in Figure 3, gaussian noise was then added to represent observational unce
   <em>Figure 5. Model transmission spectrum of HD 189733b generated using PLATON.</em>
 </p>
 The PLATON model spectrum predicts an H20 absorption feature at approximately 1.4 μm, producing an increase in the planet to star radius ratio as the atmosphere becomes more opaque and the planet appears larger at these wavelengths. This feature is also visible in the observational data. Between approximately 0.3-1.2 μm, both the observed data in Figure 4 and the model in Figure 5 exhibit a declining slope which can be attributed to the Raleigh scattering behaviour expected in a clear sky. Further peaks in the model suggest the existence of CO2 and CH4 but there is limited data in this region so this cannot yet be confirmed. The peak at 1.9 μm is a second peak due to water, the peak leading up to 3.0 μm is likely due to methane and the peak at 4.4 μm is due to carbon dioxide.
-
+<br><br>
 
 <p align="center">
   <img src="Chi_fit.png" width="600">
