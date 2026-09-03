@@ -19,7 +19,7 @@ As a planet orbits a star, eventually from our point of view the planet will pas
   <br>
   <em>Figure 1. A graph showing the Planck distribution for flux against wavelength.</em>
 </p>
-A blackbody spectrum was first generated using Planck's law to approximate the stellar spectrum. This provided a baseline spectrum onto which atmospheric absorption features could be introduced.
+In Figure 1, a blackbody spectrum was first generated using Planck's law to approximate the stellar spectrum. This provided a baseline spectrum onto which atmospheric absorption features could be introduced.
 <br><br>
 
 <p align="center">
@@ -27,7 +27,7 @@ A blackbody spectrum was first generated using Planck's law to approximate the s
   <br>
   <em>Figure 2. Model stellar spectrum with simulated molecular absorption features introduced at selected wavelengths.</em>
 </p>
-Absorption features associated with H20 molecules were introduced into the model spectrum to simulate the wavelength dependent absorption produced as stellar light passes through an exoplanet atmosphere.
+In Figure 2, absorption features associated with H20 molecules were introduced into the model spectrum to simulate the wavelength dependent absorption produced as stellar light passes through an exoplanet atmosphere.
 <br><br>
 
 <p align="center">
@@ -35,7 +35,7 @@ Absorption features associated with H20 molecules were introduced into the model
   <br>
   <em>Figure 3. Simulated transmission spectrum with H₂O absorption features and Gaussian observational noise.</em>
 </p>
-Gaussian noise was then added to represent observational uncertainty.
+Then, in Figure 3, gaussian noise was then added to represent observational uncertainty.
 <br><br>
 
 <p align="center">
