@@ -6,7 +6,7 @@ In this project I will be investigating exoplanet transmission spectroscopy and 
 
 This project explores how molecular absorption features can be observed in the atmospheres of exoplanets using transmission spectroscopy. 
 
-First a model spectrum of light was created by plotting intensity against wavelength and injecting model absorption lines for different molecules. A second spectrum was then created to simulate light that had passed through a hot Jupiter by adding noise. This exercise demonstrated the effect that uncertainties have in astrophysics and the need for high precision instruments to produce accurate results. Data collected from the exoplanet HD189733b was used to try to reproduce the results from the paper M. Oshagh (2020). This involved using the modelling package Platon from Zhang et al. (2019) to compare atmospheric models with the exoplanet's transmission spectrum and determine the expected and detected molecules within the atmosphere.
+First a model spectrum of light was created by plotting intensity against wavelength and injecting model absorption lines for different molecules. A second spectrum was then created to simulate light that had passed through a hot Jupiter by adding noise. This exercise demonstrated the effect that uncertainties have in astrophysics and the need for high precision instruments to produce accurate results. Data collected from the exoplanet HD 189733b was used to investigate its atmospheric characteristics. This involved using the atmospheric modelling package PLATON, developed by Zhang et al. (2019), to compare model spectra with the observed transmission spectrum and investigate the molecular composition and properties of the planet's atmosphere.
 
 ## Background Physics
 
@@ -36,7 +36,6 @@ In Figure 2, absorption features associated with H2O molecules were introduced i
   <em>Figure 3. Simulated transmission spectrum with H₂O absorption features and Gaussian observational noise.</em>
 </p>
 Then, in Figure 3, gaussian noise was then added to represent observational uncertainty.
-<br><br>
 
 ## HD189733b Transmission Spectrum
 <p align="center">
@@ -66,3 +65,11 @@ The PLATON model spectrum predicts an H20 absorption feature at approximately 1.
 In Figure 6, chi squared analysis was used to model the atmosphere of the hot Jupiter in comparison to the data from Figure 4. The metallicity, carbon to oxygen (C/O) ratio and cloud top pressure were varied with the PLATON model to minimise the difference between the model and observational data. The retrieval produced a metallicity of log(Z) = 1.47 ± 0.13, a C/O of 0.89 ± 0.01 and a cloud top pressure of approximately 15 mbar. In comparison to the paper by Zhang et al. (2020), who reported a C/O ratio of 0.64 ± 0.07 and a metallicity of 1.08 ± 0.22, and the paper by Lee et al. (2016) which found that the cloud top pressure was typically below 1 bar. The achieved metallicity is broadly consistent with the literature value within the reported uncertainties, as is the cloud top pressure, however the C/O is higher than the reported value.
 
 The reduced chi squared for this fit was approximately 17.1, which is higher than the desired value. This indicates that the resulting spectrum does not provide a statistically good fit to the observational data. This may result from limitations in the atmospheric model or additional atmospheric effects that are not accounted for.
+
+## References
+
+1. Zhang, M. et al. (2019). Forward Modeling and Retrievals with PLATON, a Fast Open-source Tool. Publications of the Astronomical Society of the Pacific
+2. Zhang, M. et al. (2020). PLATON II: New Capabilities and a Comprehensive Retrieval on HD 189733b Transit and Eclipse Data. The Astrophysical Journal
+3. Lee, G. et al. (2016). Dynamic mineral clouds on HD 189733b: I. 3D RHD with kinetic, non-equilibrium cloud formation. Astronomy & Astrophysics
+
+
