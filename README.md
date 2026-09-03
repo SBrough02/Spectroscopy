@@ -11,3 +11,11 @@ First a model spectrum of light was created by plotting intensity against wavele
 ## Background Physics
 
 As a planet orbits a star, eventually from our point of view the planet will pass infront of the star. This mean the light from the star will reduce in intensity as some will be blocked by the planet. But also some of light will pass through the planets atmosphere which will cause some wavelengths to be absorbed depending upon the molecules in the planets atmosphere. Electrons in atoms of a gas in the planets atmosphere have discrete levels so when the energy of a photon from a star matches the energy of a transition between levels, that photon will be absorbed which is what produces an absorption. As the planet orbits its star, it will also have a component of velocity radially towards or away from us. This causes the wavelength of light from the planet to be doppler shifted.
+
+## Synthetic Transmission Spectroscopy
+
+<p align="center">
+  <img src="Flux:Wavelength.png" width="600">
+  <br>
+  <em>Fig. 1 The Hohmann transfer orbit. Leafnode CC BY-SA 2.5, via Wikimedia Commons.</em>
+</p>
