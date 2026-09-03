@@ -39,13 +39,13 @@ Then, in Figure 3, gaussian noise was then added to represent observational unce
 <br><br>
 
 <p align="center">
-  <img src="Exo data.png" width="600">
+  <img src="Exo_data_1.png" width="600">
   <br>
   <em>Figure 4. Observed transmission spectrum of HD 189733b, showing the planet-to-star radius ratio as a function of wavelength.</em>
 </p>
 
 <p align="center">
-  <img src="Platon_fit.png" width="600">
+  <img src="Platon_fit_1.png" width="600">
   <br>
   <em>Figure 5. Model transmission spectrum of HD 189733b generated using PLATON.</em>
 </p>
