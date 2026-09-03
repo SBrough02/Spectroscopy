@@ -45,13 +45,13 @@ Gaussian noise was then added to represent observational uncertainty.
 </p>
 
 <p align="center">
-  <img src="Platon fit.png" width="600">
+  <img src="Platon_fit.png" width="600">
   <br>
   <em>Figure 5. Model transmission spectrum of HD 189733b generated using PLATON.</em>
 </p>
 
 <p align="center">
-  <img src="Chi fit.png" width="600">
+  <img src="Chi_fit.png" width="600">
   <br>
   <em>Figure 6. Best-fitting PLATON transmission spectrum obtained by minimising the chi-squared difference between the atmospheric model and observations.</em>
 </p>
