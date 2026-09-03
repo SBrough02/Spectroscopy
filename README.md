@@ -15,7 +15,33 @@ As a planet orbits a star, eventually from our point of view the planet will pas
 ## Synthetic Transmission Spectroscopy
 
 <p align="center">
-  <img src="Flux:Wavelength.png" width="600">
+  <img src="Flux_Wavelength.png" width="600">
+</p>
+A blackbody spectrum was first generated using Planck's law to approximate the stellar spectrum. This provided a baseline spectrum onto which atmospheric absorption features could be introduced.
+
+<p align="center">
+  <img src="Flux_Wavelength_dips.png" width="600">
+</p>
+Absorption features associated with H20 molecules were introduced into the model spectrum to simulate the wavelength dependent absorption produced as stellar light passes through an exoplanet atmosphere.
+<br>
+
+<p align="center">
+  <img src="Flux_Wavelength_h20.png" width="600">
+</p>
+Gaussian noise was then added to represent observational uncertainty.
+<br>
+
+<p align="center">
+  <img src="Exo data.png" width="600">
   <br>
-  <em>Fig. 1 The Hohmann transfer orbit. Leafnode CC BY-SA 2.5, via Wikimedia Commons.</em>
+</p>
+
+<p align="center">
+  <img src="Platon fit.png" width="600">
+  <br>
+</p>
+
+<p align="center">
+  <img src="Chi fit.png" width="600">
+  <br>
 </p>
